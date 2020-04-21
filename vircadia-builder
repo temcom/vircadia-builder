@@ -663,7 +663,7 @@ my $data = {
 			]
 
 	},
-	'linuxmint-19.3' => {
+	'linuxmint-19' => {
 		# Based on Ubuntu 18.04 (bionic)
 		has_binary_qt_package => 0,
 		package_manager => 'apt',
