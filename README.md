@@ -14,8 +14,8 @@ Builds Vircadia (formerly known as "Project Athena"), an Open Source fork of the
 
 ## Instructions:
 
-    git clone https://github.com/daleglass/athena-builder.git
-    cd athena-builder
+    git clone https://github.com/daleglass/vircadia-builder.git
+    cd vircadia-builder
     chmod +x vircadia-builder
     ./vircadia-builder
 
@@ -45,6 +45,11 @@ Will build only the server components. To build both, separate entries with a co
 
 Have in mind that each build overwrites the previous one, so if you want to have both desktop and server components at the same time, you need to build them both in one command like above.
 
+## Building AppImages
+
+The latest version is also able to create an AppImage using the --make-appimage argument.
+
+This option
 
 ## Qt
 
